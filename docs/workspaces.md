@@ -29,7 +29,7 @@ tspark.json - in root of workspace
       "ANTHROPIC_API_KEY": "xxxxx"
     },
     "gemini": {
-      "GEMINI_API_KEY": "xxxxx"
+      "GOOGLE_API_KEY": "xxxxx"
     },
     "openai": {
       "OPENAI_API_KEY": "xxxxx"

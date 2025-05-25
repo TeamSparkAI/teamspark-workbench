@@ -125,7 +125,7 @@ export class GeminiLLM implements ILLM {
     try {
       const apiKey = this.workspace.getProviderSettingsValue(LLMType.Gemini, 'GOOGLE_API_KEY')!;
       if (!apiKey) {
-        throw new Error('GEMINI_API_KEY is missing in the configuration. Please add it to your config.json file.');
+        throw new Error('GOOGLE_API_KEY is missing in the configuration. Please add it to your config.json file.');
       }
       this.genAI = new GoogleGenAI({ apiKey });
       log.info('Gemini LLM initialized successfully');
